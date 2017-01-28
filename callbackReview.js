@@ -62,6 +62,11 @@ contains('Colt', names, function(yes){
     NEW QUESTION
 =======================*/
 
+function map(numbers, callback) {
+  
+}
+
+
 var numbers = [1,2,3,4,5];
 //Produces a new array of values by mapping each value in list through a transformation function
 map(numbers, function(num){
