@@ -71,7 +71,16 @@ map(numbers, function(num){
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
 
+function uniq(names, callback) {
+  var uniqArr = [];
 
+  for (i = 0; i < names.length; i++) {
+    if(uniqArr.indexOf(names[i]) === -1) {
+      uniqArr.push(names[i]);
+    }
+  }
+  return callback(uniqArr);
+}
 
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
