@@ -92,7 +92,7 @@ function longest(sentence) {
         longestWord = words[i];
       }
     }
-    return longestWords;
+    return longestWord;
 }
 
 console.log(longest(sentence));
