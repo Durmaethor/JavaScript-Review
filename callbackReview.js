@@ -1,5 +1,8 @@
 /* Declare and Define the functions here that will make the function calls below work properly */
 
+function first(names, callback) {
+    callback(names.shift());
+}
 
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
