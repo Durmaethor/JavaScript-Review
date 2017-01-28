@@ -106,8 +106,13 @@ console.log(longest(sentence));
 var myPoem = 'What is a jQuery but a misunderstood object?'
 //What is a jQuery but a misunderstood object? --> What Is A JQuery But A Misunderstood Object?
 
-  //code here
+function capitalize(myPoem) {
+  return myPoem.replace(/\w\S*/g, function(txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
 
+console.log(capitalize(myPoem));
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
