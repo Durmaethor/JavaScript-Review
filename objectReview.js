@@ -1,6 +1,13 @@
 //Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category. 
 
-  //Your code here
+    var favoriteThings = {
+      band: 'Linkin Park',
+      food: 'Pizza',
+      person: 'Cassie & EmmaLeigh',
+      book: 'Harry Potter',
+      movie: 'Harry Potter',
+      holiday: 'Christmas'
+    }
 
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
