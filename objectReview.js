@@ -16,11 +16,13 @@
 
 //Now change the food key in your favoriteThings object to be 'Lettuce' and change the book key in your favoriteThings object to be '50 Shades of Gray'. 
 
-  //Your code here
+  favoriteThings.food = 'Lettuce'; //LIES!!!
+  favoriteThings.book = '50 Shades of Gray (LIES!!!)'; //LIES!!!!
 
 //Now, alert your favorite person, then alert your favorite book.
 
-  //Your code here
+  alert(favoriteThings.person);
+  alert(favoriteThings.book);
 
 
 
