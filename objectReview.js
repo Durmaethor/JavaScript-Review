@@ -49,11 +49,13 @@ var user = {
 
 //Once you get your truthy object, Change the remaining values in the object to be specific to you (name: 'your name', username: 'your username'), rather than my information.
 
-  //Your code here
+user.name = 'Ryan Kramer'
+user.pwHash = '1qaz2wsx'
+user.username = 'RKramer'
 
 //Now console.log your object and make sure it looks right.
 
-  //Your code here
+console.log(user);
 
 
 
